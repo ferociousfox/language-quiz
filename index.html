@@ -10,6 +10,103 @@
     <title>Template</title>
   </head>
   <body>
+    <div class="container">
+      <h1>What is the right Programming language for you?</h1>
+      <form id="survey" class="" action="index.html" method="post">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card-header">
+              <center>Are you focused on how things look or how they function?</center>
+            </div>
+              <div class="card-body">
+                <label>
+                  <input type="radio" name="question1" value="a">
+                  A. looks
+                </label>
+                <label>
+                  <input type="radio" name="question1" value="b">
+                  B. funtionality
+                </label>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-header">
+              <center>Would you want to make something people interact with or something people depend on and dont even know it?</center>
+            </div>
+              <div class="card-body">
+                <label>
+                  <input type="radio" name="question2" value="a">
+                  A. interact with
+                </label>
+                <label>
+                  <input type="radio" name="question2" value="b">
+                  B. depend on
+                </label>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card-header">
+              <center>enter text for question 3</center>
+            </div>
+              <div class="card-body">
+                <label>
+                  <input type="radio" name="question3" value="a">
+                  A. enter text
+                </label>
+                <label>
+                  <input type="radio" name="question3" value="b">
+                  B. enter text
+                </label>
+              </div>
+          </div> <!-- dummy questions -->
+        </div> <!--closes 1st row -->
 
+
+        <div class="row2">
+          <div class="col-md-6"><!-- dummy questions -->
+            <div class="card-header">
+              <center>enter text for question 4</center>
+            </div>
+              <div class="card-body">
+                <label>
+                  <input type="radio" name="question4" value="a">
+                  A. enter text
+                </label>
+                <label>
+                  <input type="radio" name="question4" value="b">
+                  B. enter text
+                </label>
+              </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card-header">
+              <center>enter text for question 5</center>
+            </div>
+              <div class="card-body">
+                <label>
+                  <input type="radio" name="question3" value="a">
+                  A. enter text
+                </label>
+                <label>
+                  <input type="radio" name="question3" value="b">
+                  B. enter text
+                </label>
+              </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Show me my language!</button>
+      </form>
+    </div> <!--.container end-->
+    <div class="container">
+      <div id="result" class="card">
+        <div class="card-header">
+          <center>Your best language fit</center>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title"></h2>
+          <p></p>
+        </div>
+      </div>
+    </div><!--second container end-->
   </body>
-</html>
+  </html>
