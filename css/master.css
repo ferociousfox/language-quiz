@@ -3,6 +3,10 @@ h1 {
   color: #e3e6e8;
 }
 
+h4 {
+  color: #e3e6e8;
+}
+
 .card-header {
   backgournd-color: #4c5154;
 }
@@ -24,4 +28,18 @@ center {
 }
 #result {
   background-color: #3f5149;
+}
+
+.card-text {
+  color: #cbdbd4;
+}
+
+#top {
+  background-color: #2e302f;
+}
+
+img {
+  float: left;
+  max-width: 100%;
+  height: 500px;
 }
